@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.fondo{
+    background-image: url("Fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.barra-navegacion{
+    width: 100%;
+}
+
+.barra-navegacion ul{
+    list-style: none;
+    position: relative;
+}
+
+.titulo{
+    color: white;
+    font-size: larger;
+    text-align: left;
+}
+
+.slogan{
+    color: white;
+    font-size: larger;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vision{
+    width: 50%;
+}
